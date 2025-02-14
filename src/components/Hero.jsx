@@ -8,7 +8,7 @@ function Hero() {
           Find Your <span className="text-blue-400">Dream Job</span> with{" "}
           <span className="text-yellow-400">ImTech</span>
         </h1>
-        <p className="text-lg text-gray-300">
+        <p className=" xsm:text-lg text-gray-300">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente
           nihil ad atque velit alias id et odit, rerum quas rem cumque odio
           maiores dignissimos totam sunt exercitationem error minima dolorum.

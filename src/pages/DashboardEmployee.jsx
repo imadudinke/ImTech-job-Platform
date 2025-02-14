@@ -31,7 +31,7 @@ function DashboardEmployee() {
             </button>
           </form>
           <div className="flex items-center space-x-4">
-            <i className="fa-regular fa-bell text-2xl"></i>
+            <i className="fa-regular hidden lg:flex fa-bell text-2xl"></i>
             <i
               onClick={() => {
                 setShowSetting((perSetting) => !perSetting);

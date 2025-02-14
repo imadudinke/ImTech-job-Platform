@@ -80,15 +80,15 @@ function Signup() {
   }
 
   return (
-    <div className=" flex flex-col items-center p-5 pb-16 space-y-7 bg-gradient-to-r from-[#348ea4] to-[#52b788] relative ">
+    <div className=" flex flex-col items-center justify-center h-screen p-5 pb-16 space-y-7  bg-gradient-to-r from-[#283E4A] to-[#52b788] relative overflow-y-scroll ">
       <div className="flex items-center justify-center space-x-2  ">
         <img src="/assets/logoIcon.png" alt="icon" className="w-[100px]" />
-        <h1 className="text-[34px] font-serif uppercase text-center">
+        <h1 className=" sm:text-[34px] font-serif uppercase text-center">
           It is just a matter of second
         </h1>
       </div>
 
-      <div className="w-[90%] md:w-[50%] text-gray-500 shadow-2xl rounded-xl  bg-white ">
+      <div className=" sm:w-[90%] md:w-[50%] text-gray-500 shadow-2xl rounded-xl  bg-white ">
         <div className="grid grid-cols-2 justify-center text-[1.1rem] text-white sm:text-[1.4rem] font-mono   pb-2">
           <button
             onClick={() => setWhoIs("jobSeeker")}

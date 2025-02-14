@@ -68,14 +68,14 @@ function Login() {
               Login
             </button>
           </form>
-          <div className="flex justify-between">
+          <div className="flex justify-between flex-col xsm:flex-row">
             <Link to="/signup">
-              <p className="text-gray-500 text-sm">
+              <p className="text-gray-500 text-[0.8rem] sm:text-sm">
                 Don’t have an account?{" "}
                 <span className="text-[#0eb49b] hover:underline">Sign Up</span>
               </p>
             </Link>
-            <p className=" text-sm hover:underline cursor-pointer duration-200 text-yellow-800">
+            <p className="text-[0.8rem] sm:text-sm hover:underline cursor-pointer duration-200 text-yellow-800">
               Forgot your password?
             </p>
           </div>

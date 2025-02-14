@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+@theme {
+  --breakpoint-xsm: 30rem;
+}
+
 ::-webkit-scrollbar {
   width: 0.6rem;
   background-color: #222121;
@@ -31,4 +35,9 @@
   100% {
     transform: translateY(0);
   }
+}
+#root {
+  height: 100vh;
+  /* display: flex; */
+  /* align-items: center; */
 }

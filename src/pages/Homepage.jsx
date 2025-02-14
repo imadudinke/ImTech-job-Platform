@@ -4,7 +4,7 @@ import HomepageFooter from "../components/HomepageFooter";
 
 function Homepage() {
   return (
-    <div className="h-screen bg-gray-700 ">
+    <div className="h-full bg-gray-700 ">
       <header className="shadow-2xs">
         <HomeNavbar />
       </header>
